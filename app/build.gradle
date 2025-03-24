@@ -62,6 +62,14 @@ dependencies {
     kapt libs.hilt.compiler
     //serialization
     implementation(libs.kotlinx.serialization.json)
+    //retrofit
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    //okhttp
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
+    //timber
+    implementation libs.timber
     testImplementation libs.junit
     androidTestImplementation libs.androidx.junit
     androidTestImplementation libs.androidx.espresso.core
