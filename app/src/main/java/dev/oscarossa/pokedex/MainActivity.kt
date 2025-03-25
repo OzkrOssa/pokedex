@@ -5,7 +5,8 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import dagger.hilt.android.AndroidEntryPoint
-import dev.oscarossa.pokedex.ui.theme.PokedexTheme
+import dev.oscarossa.pokedex.presentation.navigation.NavWrapper
+import dev.oscarossa.pokedex.presentation.theme.PokedexTheme
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -14,6 +15,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             PokedexTheme {
+                NavWrapper()
             }
         }
     }

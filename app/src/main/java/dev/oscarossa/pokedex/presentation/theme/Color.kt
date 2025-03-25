@@ -1,4 +1,4 @@
-package dev.oscarossa.pokedex.ui.theme
+package dev.oscarossa.pokedex.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
